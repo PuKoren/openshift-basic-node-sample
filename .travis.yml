@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.10'
+deploy:
+  provider: openshift
+  user: koren@pukogames.com
+  password:
+    secure: IAfBhsZsT1tdkIrlUCPvZnzdp5SKjJqFQEKFNSlfBVl075m9relBhaUEIrN51Oyh7XV6XcB68geENpGehtrIK090zPGxFm8CIpMcrW/RYb95Q1TMeGV0HdYOObnQq+0+3xv9baUzxze1HjC4MLm8TwF6mYXJdWNqbmCf0szPnJo=
+  app: nodejs
+  domain: pukogames
+  on:
+    repo: PuKoren/openshift-basic-node-sample
