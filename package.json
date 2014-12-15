@@ -1,0 +1,26 @@
+{
+  "name": "openshift-basic-node-sample",
+  "version": "0.0.1",
+  "description": "A basic nodejs integration with openshift",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PuKoren/openshift-basic-node-sample.git"
+  },
+  "keywords": [
+    "openshift",
+    "node",
+    "sample"
+  ],
+  "author": "Jonathan Muller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PuKoren/openshift-basic-node-sample/issues"
+  },
+  "dependencies": {
+    "http": "0.0.0"
+  }
+}
